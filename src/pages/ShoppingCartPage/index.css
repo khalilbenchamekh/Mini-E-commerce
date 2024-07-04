@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 2rem;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .empty-cart-text {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .table-container {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-header-cell {
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding: 0.75rem;
+  }
+  
+  .table-cell {
+    padding: 0.75rem;
+    vertical-align: middle;
+  }
+  
+  .table-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .table-action-cell {
+    text-align: center;
+  }
+  
+  .button-remove {
+    color: #f44336;
+  }
+  
+  .button-remove:hover {
+    background-color: #ffeeee;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+  
